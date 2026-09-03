@@ -1,0 +1,8 @@
+# downloaded corpora and model checkpoints (re-created by the notebook)
+alice.txt
+sherlock.txt
+*.pth
+# python / jupyter noise
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

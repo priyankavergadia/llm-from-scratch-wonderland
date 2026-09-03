@@ -67,14 +67,6 @@ h1 .small { display:block; font-size:.42em; font-style:italic; margin-top:14px; 
 .cta:hover { transform:rotate(0deg) }
 .cta-note { font-size:.92rem; color:var(--ink-soft); margin:22px auto 0; max-width:46ch }
 
-/* ── facts as a colophon line ── */
-.facts { display:grid; grid-template-columns:repeat(4, 1fr); border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); margin:40px auto 0; max-width:900px }
-.fact { padding:16px 12px; text-align:center; border-right:1px solid var(--rule) }
-.fact:last-child { border-right:0 }
-.fact .k { font-family:"IM Fell English SC", Georgia, serif; font-size:.82rem; letter-spacing:.1em; color:var(--ink-soft); margin:0 0 2px }
-.fact .v { font-family:"IM Fell DW Pica", Georgia, serif; font-size:1.7rem; margin:0; font-variant-numeric:tabular-nums; line-height:1.1 }
-.fact .s { font-size:.88rem; color:var(--ink-soft); margin:2px 0 0; font-style:italic }
-@media (max-width:820px) { .facts { grid-template-columns:1fr 1fr } .fact:nth-child(2) { border-right:0 } .fact:nth-child(-n+2) { border-bottom:1px solid var(--rule) } }
 
 /* ── the programme, as chapters ── */
 section.programme { padding:56px 0 24px }
@@ -132,12 +124,6 @@ footer .quote { font-family:"IM Fell DW Pica", Georgia, serif; font-style:italic
     </a>
     <p class="cta-note">Free tier is enough. Set <span class="mono">Runtime → T4 GPU</span> first; the notebook checks and reminds you.</p>
 
-    <div class="facts">
-      <div class="fact"><p class="k">Lines you write</p><p class="v">≈ 430</p><p class="s">tokenizer to assistant</p></div>
-      <div class="fact"><p class="k">Parameters</p><p class="v">163 M</p><p class="s">the real GPT-2 small</p></div>
-      <div class="fact"><p class="k">Time, end to end</p><p class="v">2½ h</p><p class="s">on a Colab T4</p></div>
-      <div class="fact"><p class="k">Prior PyTorch</p><p class="v">none</p><p class="s">every line is commented</p></div>
-    </div>
   </div>
 </header>
 

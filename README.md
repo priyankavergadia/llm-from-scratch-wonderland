@@ -7,7 +7,7 @@ to a working, trained, instruction-following GPT — writing every component by 
 
 **File:** `Build_an_LLM_From_Scratch_Wonderland.ipynb`
 
-**Landing page:** [`docs/index.html`](docs/index.html) — a one-screen overview with an *Open in Colab* button for every Step.
+**Landing page:** [priyankavergadia.github.io/llm-from-scratch-wonderland](https://priyankavergadia.github.io/llm-from-scratch-wonderland/) — a one-screen overview with an *Open in Colab* button for every Step (source in [`docs/index.html`](docs/index.html)).
 
 **Written for people new to the code, not just to LLMs:** every code cell opens with a plain-English note, every tensor is labelled with its shape, and each PyTorch idiom is explained the first time it appears. Eighteen diagrams are embedded in the notebook itself, alongside live plots the learner's own code produces — attention heatmaps for all twelve heads of the real GPT-2, a 2-D map of its embedding space, before/after next-token distributions, a confusion matrix, and a coloured view of the instruction-tuning loss mask.
 

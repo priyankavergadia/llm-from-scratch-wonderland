@@ -1,6 +1,6 @@
 # 🐇 Build a Large Language Model From Scratch — The Wonderland Edition
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pvergadia/llm-from-scratch-wonderland/blob/main/Build_an_LLM_From_Scratch_Wonderland.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/priyankavergadia/llm-from-scratch-wonderland/blob/main/Build_an_LLM_From_Scratch_Wonderland.ipynb)
 
 One self-contained Jupyter notebook that walks a first-timer from *"what even is an LLM?"*
 to a working, trained, instruction-following GPT — writing every component by hand in PyTorch.
